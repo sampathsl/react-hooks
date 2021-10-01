@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import UseState from "./hooks/use-state";
+import UseState from "./hooks/use-state/use-state";
 
 ReactDOM.render(
   <React.StrictMode>
