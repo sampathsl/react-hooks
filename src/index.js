@@ -4,13 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import UseState from "./hooks/use-state/use-state";
 import UseReducer from "./hooks/use-reducer/use-reducer";
+import UseEffectHook from "./hooks/use-effect/use-effect-hook";
 
 ReactDOM.render(
-  <React.StrictMode>
-    {/*<UseState />*/}
-    <UseReducer />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        {/*<UseState />*/}
+        {/*<UseReducer />*/}
+        <UseEffectHook/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
