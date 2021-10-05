@@ -5,12 +5,16 @@ import reportWebVitals from './reportWebVitals';
 import UseState from "./hooks/use-state/use-state";
 import UseReducer from "./hooks/use-reducer/use-reducer";
 import UseEffectHook from "./hooks/use-effect/use-effect-hook";
+import UseRefHook from "./hooks/use-ref-hook/use-ref-hook";
+import UseLayoutEffectHook from "./hooks/use-layout-effect/UseLayoutEffectHook";
 
 ReactDOM.render(
     <React.StrictMode>
         {/*<UseState />*/}
         {/*<UseReducer />*/}
-        <UseEffectHook/>
+        {/*<UseEffectHook/>*/}
+        {/*<UseRefHook/>*/}
+        <UseLayoutEffectHook/>
     </React.StrictMode>,
     document.getElementById('root')
 );

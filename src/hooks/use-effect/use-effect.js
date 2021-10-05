@@ -1,4 +1,3 @@
-/*
 import {useEffect, useState} from "react";
 
 const UseEffect = () => {
@@ -23,4 +22,3 @@ const UseEffect = () => {
 }
 
 export default UseEffect;
-*/
