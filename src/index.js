@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import UseState from "./hooks/use-state/use-state";
+import UseReducer from "./hooks/use-reducer/use-reducer";
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseState />
+    {/*<UseState />*/}
+    <UseReducer />
   </React.StrictMode>,
   document.getElementById('root')
 );
