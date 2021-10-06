@@ -10,6 +10,7 @@ import UseLayoutEffectHook from "./hooks/use-layout-effect/UseLayoutEffectHook";
 import UseImperativeHandleHook from "./hooks/use-imperative-handle-hook/use-imperative-handle-hook";
 import UseContextHook from "./hooks/use-context/UseContextHook";
 import UseMemoHook from "./hooks/use-memo-hook/UseMemoHook";
+import UseCallBackHook from "./hooks/use-callback-hook/UseCallBackHook";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -20,7 +21,8 @@ ReactDOM.render(
         {/*<UseLayoutEffectHook/>*/}
         {/*<UseImperativeHandleHook/>*/}
         {/*<UseContextHook/>*/}
-        <UseMemoHook/>
+        {/*<UseMemoHook/>*/}
+        <UseCallBackHook/>
     </React.StrictMode>,
     document.getElementById('root')
 );
