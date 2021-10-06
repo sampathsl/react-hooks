@@ -9,6 +9,7 @@ import UseRefHook from "./hooks/use-ref-hook/use-ref-hook";
 import UseLayoutEffectHook from "./hooks/use-layout-effect/UseLayoutEffectHook";
 import UseImperativeHandleHook from "./hooks/use-imperative-handle-hook/use-imperative-handle-hook";
 import UseContextHook from "./hooks/use-context/UseContextHook";
+import UseMemoHook from "./hooks/use-memo-hook/UseMemoHook";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -18,7 +19,8 @@ ReactDOM.render(
         {/*<UseRefHook/>*/}
         {/*<UseLayoutEffectHook/>*/}
         {/*<UseImperativeHandleHook/>*/}
-        <UseContextHook/>
+        {/*<UseContextHook/>*/}
+        <UseMemoHook/>
     </React.StrictMode>,
     document.getElementById('root')
 );
