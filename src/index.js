@@ -7,6 +7,8 @@ import UseReducer from "./hooks/use-reducer/use-reducer";
 import UseEffectHook from "./hooks/use-effect/use-effect-hook";
 import UseRefHook from "./hooks/use-ref-hook/use-ref-hook";
 import UseLayoutEffectHook from "./hooks/use-layout-effect/UseLayoutEffectHook";
+import UseImperativeHandleHook from "./hooks/use-imperative-handle-hook/use-imperative-handle-hook";
+import UseContextHook from "./hooks/use-context/UseContextHook";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -14,7 +16,9 @@ ReactDOM.render(
         {/*<UseReducer />*/}
         {/*<UseEffectHook/>*/}
         {/*<UseRefHook/>*/}
-        <UseLayoutEffectHook/>
+        {/*<UseLayoutEffectHook/>*/}
+        {/*<UseImperativeHandleHook/>*/}
+        <UseContextHook/>
     </React.StrictMode>,
     document.getElementById('root')
 );
